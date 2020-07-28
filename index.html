@@ -1,0 +1,255 @@
+<!doctype html>
+<html lang="de">
+
+<head>
+    <title>CIB cookie</title>
+    <!-- Required meta tags -->
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+    <!-- Bootstrap 4 CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+        integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
+
+    <!-- Main css -->
+    <link href="css/cibstyle.css" rel="stylesheet">
+    <link href="https://templatemaster.cib.de/css/style-cookie.css" rel="stylesheet">
+
+    <!-- jQuery and Bootstrap -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+</head>
+
+<body data-spy="scroll" data-target="#navbar" data-offset="30" class="pr-0">
+
+    <!-- Copyright -->
+    <div class="bg-color footer-copyright py-5 text-center">
+        <a href="#" id="cookiesBtn" name="cookiesBtn" data-backdrop="static" data-keyboard="false"
+            class="col copyrigth-text-link px-2">Cookies</a>
+    </div>
+
+    <!-- NEW Cookie -->
+
+    <!-- Modal Cookie -->
+
+    <div class="modal fade pt-3" id="modal-cookies" role="dialog">
+        <div class="modal-dialog modal-dialog-cookie modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1>Cookies auf dieser Website</h1>
+                </div>
+                <div class="modal-body">
+                    <div>
+                        <p class="card-text">Diese Website verwendet Cookies, um einen fehlerfreien und sicheren
+                            Betrieb der Website zu gewährleisten und um unsere Services stetig zu verbessern.
+                            Durch die Bestätigung des Buttons „Akzeptieren“ stimmen Sie der Verwendung zu. Unter
+                            "Cookies" können Sie Ihre Auswahl jederzeit ändern. Weitere Infos in unserer <a
+                                class="modal-links" target="_blank"
+                                onClick="gtag('event', 'action', {'event_category': 'link-Datenschutzerklärung', 'event_label': 'link-Datenschutzerklärung','value': 'value'});"
+                                href="https://www.cib.de/de/datenschutz.html">Datenschutzerklärung.</a>
+                        </p>
+                        <a href="/privacy/" target="_blank" rel="noopener noreferrer"
+                            id="bs-gdpr-cookies-modal-more-link"></a>
+                    </div>
+
+                    <div>
+                        <h6 class="font-weight-bold pb-2">Ihre Cookie-Einstellungen:</h6>
+                        <div class="accordion" id="accordionExample">
+                            <div class="">
+                                <div class="" id="headingOne">
+                                    <h4 class="mb-0">
+                                        <label class="checkbox"><input type="checkbox" id="subscribeNews5"
+                                                checked="checked" disabled="disabled"
+                                                style="background-color: #bec8d2;"><span
+                                                class="card-text-disabled mb-3 pr-3">Notwendig </span></label>
+                                        <button class="btn-cookies1 collapsed btna glyphicon glyphicon-minus pl-0"
+                                            type="button" data-toggle="collapse" data-target="#collapseOne"
+                                            aria-expanded="false" aria-controls="collapseOne">
+                                        </button>
+                                    </h4>
+                                </div>
+
+                                <div id="collapseOne" class="collapse" aria-labelledby="headingOne"
+                                    data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        Diese Cookies sind für das reibungslose Funktionieren der Website
+                                        unbedingt erforderlich. Diese Kategorie enthält nur Cookies, die die
+                                        grundlegenden Funktionen und Sicherheitsmerkmale der Website
+                                        gewährleisten. Auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO werden diese
+                                        Cookies gespeichert. Der Websitebetreiber hat ein berechtigtes Interesse
+                                        an der Speicherung von Cookies zur technisch fehlerfreien und
+                                        optimierten Bereitstellung seiner Dienste.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="">
+                                <div class="" id="headingTwo">
+                                    <h4 class="mb-0">
+                                        <label class="checkbox"><input type="checkbox" id="enable-google-cookies"
+                                                onClick="gtag('event', 'action', {'event_category': 'Button-Statistik', 'event_label': 'Cookie-Statistik','value': 'value'});"
+                                                checked><span class="card-text">Statistik </span></label>
+                                        <button class="btn-cookies2 collapsed btna glyphicon glyphicon-minus"
+                                            type="button" data-toggle="collapse" data-target="#collapseTwo"
+                                            aria-expanded="false" aria-controls="collapseTwo">
+                                        </button>
+                                    </h4>
+                                </div>
+                                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
+                                    data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        Wir setzen Cookies zu statistischen Zwecken ein, um Ihr Nutzerverhalten
+                                        besser zu verstehen und Sie bei Ihrer Navigation auf unseren
+                                        Angebotsseiten zu unterstützen. Damit ist es uns zudem möglich, Ihre
+                                        Navigation auf unseren Angebotsseiten zu erfassen und für die
+                                        bedarfsgerechte Gestaltung unserer Services zu nutzen.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <button
+                            onClick="gtag('event', 'action', {'event_category': 'Button-Cookie-Akzeptieren', 'event_label': 'Cookie-Akzeptieren','value': 'value'});"
+                            class="btn btn-block btn-danger lp-button btn-line-height-Basis general-links mt-4"
+                            id="accept-cookies" data-dismiss="modal">Akzeptieren</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        $(document).ready(function () {
+
+            const modal_cookies = $('#modal-cookies');
+
+            allowCookies();
+
+            $("#modal-cookies").modal({
+                show: false,
+                backdrop: 'static'
+            });
+
+            let shownCookies = getCookie("shownCookies");
+            if (shownCookies !== "1") {
+                $('#enable-google-cookies', modal_cookies).prop('checked', false);
+                modal_cookies.modal('show');
+            }
+
+            modal_cookies.on('click', '#accept-cookies', function () {
+                let checked = $('#enable-google-cookies', modal_cookies).is(':checked');
+                if (checked) {
+                    setCookie('allowStats', '1', 365);
+                } else {
+                    setCookie('allowStats', '0', 365);
+                }
+                let shownCookies = getCookie("shownCookies");
+                if (shownCookies === '1') {
+                    location.reload();
+                } else {
+                    setCookie('shownCookies', '1', 365);
+                    allowCookies();
+                }
+
+            });
+
+
+            $('#cookiesBtn').on('click', function () {
+                let allowStats = getCookie("allowStats");
+                let checked = allowStats === '1';
+                $('#enable-google-cookies', modal_cookies).prop('checked', checked);
+                modal_cookies.modal('show');
+            });
+
+        });
+
+        function allowCookies() {
+            let allowStats = getCookie("allowStats");
+            if (allowStats === "1") {
+                window['ga-disable-UA-171719770-1'] = false;
+            } else {
+                window['ga-disable-UA-171719770-1'] = true;
+            }
+        }
+
+        function setCookie(cname, cvalue, exdays) {
+            var d = new Date();
+            d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
+            var expires = "expires=" + d.toUTCString();
+            document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+        }
+
+        function getCookie(cname) {
+            var name = cname + "=";
+            var decodedCookie = decodeURIComponent(document.cookie);
+            var ca = decodedCookie.split(';');
+            for (var i = 0; i < ca.length; i++) {
+                var c = ca[i];
+                while (c.charAt(0) == ' ') {
+                    c = c.substring(1);
+                }
+                if (c.indexOf(name) == 0) {
+                    return c.substring(name.length, c.length);
+                }
+            }
+            return "";
+        }
+    </script>
+
+    <!-- To Top Button-->
+    <script>
+        $(document).ready(function () {
+            // Gets the video src from the data-src on each button
+            var $videoSrc;
+            $(".video-btn").click(function () {
+                $videoSrc = $(this).attr("data-src");
+                console.log("button clicked" + $videoSrc);
+            });
+
+            // when the modal is opened autoplay it
+            $("#ModalVideo").on("shown.bs.modal", function (e) {
+                console.log("modal opened" + $videoSrc);
+                // set the video src to autoplay and not to show related video. Youtube related video is like a box of chocolates... you never know what you're gonna get
+                $("#video").attr(
+                    "src",
+                    $videoSrc + "?amp;showinfo=0&amp;modestbranding=1&amp;autoplay=1"
+                );
+            });
+
+            // stop playing the youtube video when I close the modal
+            $("#ModalVideo").on("hide.bs.modal", function (e) {
+                // a poor man's stop video
+                $("#video").attr("src", $videoSrc);
+            });
+
+            // document ready
+        });
+    </script>
+
+</body>
+
+<!-- Cookie connector to GA after body -->
+<script type="text/javascript">
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-171719770-1']);
+    _gaq.push(['_setDomainName', 'test.cib.de']);
+    _gaq.push(['_trackPageview']);
+
+    (function () {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+
+</script>
+
+</html>
